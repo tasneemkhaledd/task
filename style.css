@@ -1,0 +1,50 @@
+.container {
+  background-color: #d375e6;
+  /*height: 200px;
+  width: 200px;
+  display: grid;
+  grid-gap: 30px;
+  margin: auto;
+  padding: 10px;*/
+  grid-template-areas: "one one one one"
+  "two three three four"
+  "five five five five";
+  width: 600px;
+    height: 500px;
+    padding: 80px;
+    margin: 10%;
+    display: grid;
+    gap: 7px;
+}
+.child {
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+  box-sizing: border-box;
+
+}
+#one{
+
+    height: 150px;
+   grid-area: one;
+
+}
+#two{
+
+    height: 300px;
+    grid-area: two;
+
+}
+#three{
+
+    grid-area: three;
+}
+#four{
+
+    grid-area:four;
+}
+#five{
+
+    height: 50px;
+grid-area: five;
+}
